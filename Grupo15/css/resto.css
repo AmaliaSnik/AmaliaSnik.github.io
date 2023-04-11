@@ -1,0 +1,39 @@
+.resto{
+
+    grid-area: card-imagen;
+    display:grid;
+    width: 50%;
+    max-width: 345px;
+    height: 50%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-auto-rows: minmax(33%,auto);
+    justify-items: center;
+    align-items: center;
+
+    box-sizing: border-box;
+
+}
+
+.img_resto{
+
+    padding: 1.5rem, 2rem;
+    height: 430px ;
+    width: 430px;
+    object-fit: cover;
+    border-radius: 25px 0px;
+
+    box-sizing: border-box;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .img_resto {
+        display: inline;
+        justify-content: space-between;
+        border: none;
+    }
+}
+

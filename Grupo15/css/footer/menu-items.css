@@ -1,0 +1,8 @@
+.menu__items {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu__items:last-child .menu__links {
+    margin-right: 2rem;
+}
